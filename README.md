@@ -6,3 +6,11 @@ stack clean && stack build && stack exec sampleFailure
 
 now based the value above, and I_DO_NOT_APPEAR should not appear in the stdout
 
+
+---
+
+Random notes:
+
+Does seem to work in ghci
+
+Does also work if you pipe the stdin into haskell
